@@ -1,0 +1,30 @@
+{
+    "Name": "74HC283",
+    "Description": "4-bit adder",
+    "Pins": {
+        "1": "S1",
+        "2": "B1",
+        "3": "A1",
+        "4": "S0",
+        "5": "A0",
+        "6": "B0",
+        "7": "CI",
+        "8": "GR",
+        "9": "CO",
+        "10": "S3",
+        "11": "B3",
+        "12": "A3",
+        "13": "S2",
+        "14": "A2",
+        "15": "B2",
+        "16": "VC"
+    },
+
+    "TruthTable": {
+        "File": "./table_dump.csv",
+        "Values": "A,B,Cin,S,Cout",
+        "InputCount": [4,4,1],
+        "OutputCount": [4,1]
+    }
+    
+}
